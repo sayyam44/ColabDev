@@ -223,3 +223,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )
 
 # django_heroku.settings(locals())
+
+if os.getcwd() == '/app':
+    DEBUG = False
+# new changes
