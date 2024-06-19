@@ -13,6 +13,7 @@
 //   )
 // }
 document.addEventListener('DOMContentLoaded', function () {
+  console.log("JavaScript is working");
   hljs.highlightAll();
 
   let alertWrapper = document.querySelector('.alert');
